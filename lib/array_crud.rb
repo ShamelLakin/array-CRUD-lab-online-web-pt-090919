@@ -1,37 +1,37 @@
 def create_an_empty_array
-  new_array = []
+  array = []
 end
 
 def create_an_array
- new_array = ["planes", "trains", "cars", "boats"] 
+ array = ["planes", "trains", "cars", "boats"] 
 end
 
 def add_element_to_end_of_array(array, element)
-  new_array << "jets"
+  array << "jets"
   
 end
 
 def add_element_to_start_of_array(array, element)
-  new_array.unshift("jets")
+  array.unshift("jets")
 end
 
 def remove_element_from_end_of_array(array)
-  boats = new_array.pop
+  boats = array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  planes = new_array.shift
+  planes = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  new_array[2]
+  array[2]
   
 end
 
 def retrieve_first_element_from_array(array)
-  new_array[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  new_array[-1]
+  array[-1]
 end
